@@ -1,0 +1,18 @@
+
+
+.emoji_card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+    
+}
+
+.emoji_image{
+    font-size: 80px;
+}
+
+.emoji_title{
+    font-size: 1em;
+    
+}

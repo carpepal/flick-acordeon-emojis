@@ -1,0 +1,28 @@
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.flickr_card{
+    padding: 2px;
+    margin: 2em 1em;
+    width: 20%;
+    max-height: 300px;
+    height: fit-content;
+}
+
+.flickr_card_image{
+    width: 100%;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.flickr_card_image:hover{
+    width: 150%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
